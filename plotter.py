@@ -10,7 +10,6 @@ import time
 
 plt.style.use(['seaborn-v0_8-dark-palette', 'dark_background'])
 
-#plt.style.use(['seaborn-dark-palette', "dark_background"])  previous not updated
 SMALL_SIZE = 10
 MEDIUM_SIZE = 12
 BIGGER_SIZE = 14

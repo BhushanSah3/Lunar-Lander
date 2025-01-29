@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (CartPole)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (Lunar_Lander)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (CartPole)" project-jdk-type="Python SDK" />
 </project>

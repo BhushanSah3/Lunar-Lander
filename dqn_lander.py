@@ -3,11 +3,11 @@
 import gym
 import pandas as pd
 import tensorflow as tf
-from keras import Model, Input
-from keras.models import clone_model
-from keras.layers import Dense
-from keras.optimizers import Adam
-from keras.losses import Huber
+from tensorflow.keras import Model, Input
+from tensorflow.keras.models import clone_model
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.losses import Huber
 
 env = gym.make("LunarLander-v2")
 
@@ -122,7 +122,7 @@ for episode in range(NUM_EPISODES):
 
         total_reward += reward
         episode_length += 19
-        print("Working", episode)
+    print("Working", episode)
 
     EPSILON /= EPSILON_DECAY
     metric["episode"].append(episode)
